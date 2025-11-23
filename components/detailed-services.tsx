@@ -56,7 +56,7 @@ export function DetailedServices() {
   ]
 
   return (
-    <section id="services" className="py-20 md:py-32 pb-10 md:pb-16 bg-gray-50">
+    <section id="services" className="py-12 md:py-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-black mb-4">Comprehensive Services</h2>
@@ -64,7 +64,7 @@ export function DetailedServices() {
         </div>
 
         {services.map((service, index) => (
-          <div key={index} className="mb-16 last:mb-0">
+          <div key={index} className="mb-8 last:mb-0">
             <div className="mb-8">
               <h3 className="text-3xl font-bold text-black mb-3">{service.title}</h3>
               <p className="text-gray-600 text-lg leading-relaxed max-w-2xl">{service.description}</p>
@@ -98,7 +98,7 @@ export function DetailedServices() {
               </Card>
             </div>
 
-            {index < services.length - 1 && <hr className="my-12 border-gray-200" />}
+            {index < services.length - 1 && <hr className="my-8 border-gray-200" />}
           </div>
         ))}
       </div>

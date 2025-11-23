@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="max-w-7xl mx-auto px-6 py-20 md:py-32">
+    <section className="max-w-7xl mx-auto px-6 py-12 md:py-16">
       <div className="max-w-2xl">
         <h1 className="text-5xl md:text-6xl font-bold text-black mb-4 leading-tight">Strategic Finance</h1>
         <p className="text-gray-600 text-lg mb-8 leading-relaxed max-w-xl">
