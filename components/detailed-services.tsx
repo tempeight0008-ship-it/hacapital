@@ -3,20 +3,20 @@ import { Card } from "@/components/ui/card"
 export function DetailedServices() {
   const services = [
     {
-      title: "Corporate Finance",
+      title: "Bookkeeping",
       description:
-        "Strategic financial planning and analysis to help your business make informed decisions and achieve long-term growth objectives.",
+        "Accurate and timely financial record-keeping to give you clear visibility into your business performance and financial health.",
       features: [
-        "Financial modeling and forecasting",
-        "Investment analysis and capital allocation",
-        "M&A advisory and due diligence",
-        "Capital structure optimization",
+        "Monthly financial statements",
+        "Accounts payable and receivable management",
+        "Bank reconciliation and cash flow tracking",
+        "QuickBooks setup and training",
       ],
-      benefits: [
-        "Improved cash flow management",
-        "Enhanced decision-making capabilities",
-        "Optimized capital structure",
-        "Strategic growth planning",
+      technology: [
+        "QuickBooks Online & Desktop",
+        "Xero Cloud Accounting",
+        "Excel & Google Sheets",
+        "Receipt Bank & Hubboc",
       ],
     },
     {
@@ -37,26 +37,26 @@ export function DetailedServices() {
       ],
     },
     {
-      title: "Bookkeeping",
+      title: "Corporate",
       description:
-        "Accurate and timely financial record-keeping to give you clear visibility into your business performance and financial health.",
+        "Strategic financial planning and analysis to help your business make informed decisions and achieve long-term growth objectives.",
       features: [
-        "Monthly financial statements",
-        "Accounts payable and receivable management",
-        "Bank reconciliation and cash flow tracking",
-        "QuickBooks setup and training",
+        "Financial modeling and forecasting",
+        "Investment analysis and capital allocation",
+        "M&A advisory and due diligence",
+        "Capital structure optimization",
       ],
-      technology: [
-        "QuickBooks Online & Desktop",
-        "Xero Cloud Accounting",
-        "Excel & Google Sheets",
-        "Receipt Bank & Hubboc",
+      benefits: [
+        "Improved cash flow management",
+        "Enhanced decision-making capabilities",
+        "Optimized capital structure",
+        "Strategic growth planning",
       ],
     },
   ]
 
   return (
-    <section id="services" className="py-20 md:py-32 bg-gray-50">
+    <section id="services" className="py-20 md:py-32 pb-10 md:pb-16 bg-gray-50">
       <div className="max-w-7xl mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-black mb-4">Comprehensive Services</h2>
