@@ -72,7 +72,7 @@ export function DetailedServices() {
 
             <div className="grid md:grid-cols-2 gap-12">
               <Card className="p-6 border border-gray-200 bg-white">
-                <h4 className="text-lg font-bold text-black">Key Features</h4>
+                <h4 className="text-lg font-bold text-black mb-[-10px]">Key Features</h4>
                 <ul className="space-y-3">
                   {service.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3">
@@ -83,8 +83,8 @@ export function DetailedServices() {
                 </ul>
               </Card>
 
-              <Card className="p-6 border border-gray-200 bg-white">
-                <h4 className="text-lg font-bold text-black">
+              <Card className="p-6 border border-gray-200 bg-white ">
+                <h4 className="text-lg font-bold text-black mb-[-10px]">
                   {service.benefits ? "Benefits" : service.serviceAreas ? "Service Areas" : "Technology Stack"}
                 </h4>
                 <ul className="space-y-3">
