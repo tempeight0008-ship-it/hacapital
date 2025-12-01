@@ -5,7 +5,7 @@ export function DetailedServices() {
     {
       title: "Bookkeeping",
       description:
-        "Accurate and timely financial record-keeping to give you clear visibility into your business performance and financial health.",
+        "Precise, up-to-date financial record-keeping that provides unparalleled clarity into your business performance and empowers you to make smarter decisions.",
       features: [
         "Monthly financial statements",
         "Accounts payable and receivable management",
@@ -20,9 +20,9 @@ export function DetailedServices() {
       ],
     },
     {
-      title: "Tax Services",
+      title: "Taxation",
       description:
-        "Comprehensive tax planning and compliance services to minimize your tax liability while ensuring full compliance with regulations.",
+        "Strategic tax planning and end-to-end compliance management to legally minimize your tax burden and ensure rigorous alignment with all regulatory requirements.",
       features: [
         "Strategic tax planning and optimization",
         "Federal and state tax preparation",
@@ -39,7 +39,7 @@ export function DetailedServices() {
     {
       title: "Corporate",
       description:
-        "Strategic financial planning and analysis to help your business make informed decisions and achieve long-term growth objectives.",
+        "Expert corporate services anchored in the Companies Act, 2017. We provide full-scope assistance for SECP filings and all statutory returns, ensuring your entity is always compliant and legally robust.",
       features: [
         "Financial modeling and forecasting",
         "Investment analysis and capital allocation",
