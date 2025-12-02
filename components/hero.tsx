@@ -7,10 +7,10 @@ export function Hero() {
     <section className="max-w-7xl mx-auto px-6 py-12 md:py-16">
       <div className="max-w-2xl">
         <h1 className="text-5xl md:text-6xl font-bold text-black mb-4 leading-tight">Remote services</h1>
-        <p className="text-gray-600 text-lg mb-8 leading-relaxed max-w-xl">
+        <p className="text-gray-600 text-lg mb-8 leading-relaxed max-w-xl" style={{ textAlign: 'justify', textJustify: 'inter-word', wordSpacing: '-0.05em' }}>
           Helping businesses achieve sustainable growth and financial efficiency by providing strategic tax planning and expert compliance management — with secure remote and on-site advisory services.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center sm:justify-start">
           <a
             href="#services"
             onClick={(e) => {
