@@ -3,19 +3,20 @@ import { Card } from "@/components/ui/card"
 export function DetailedServices() {
   const services = [
     {
-      title: "Preparation of Management Accounts",
+      title: "Bookkeeping",
       description:
         "Precise, up-to-date financial record-keeping that provides unparalleled clarity into your business performance and empowers you to make smarter decisions.",
       features: [
         "Monthly financial statements",
         "Accounts payable and receivable management",
         "Bank reconciliation and cash flow tracking",
-        "Integration of business with quickbook",
+        "QuickBooks setup and training",
       ],
       technology: [
-        "Excel & Microsoft 365",
+        "QuickBooks Online & Desktop",
         "Xero Cloud Accounting",
-        "Quickbook",
+        "Excel & Google Sheets",
+        "Receipt Bank & Hubboc",
       ],
     },
     {
@@ -23,17 +24,16 @@ export function DetailedServices() {
       description:
         "Strategic tax planning and end-to-end compliance management to legally minimize your tax burden and ensure rigorous alignment with all regulatory requirements.",
       features: [
-        "Strategic tax planning",
+        "Strategic tax planning and optimization",
         "Federal and state tax preparation",
         "Quarterly estimated tax payments",
         "Tax audit support and representation",
-        "Expert advocacy of tax cases",
-        "Preparation and filing of income tax return",
-        "Filing of preparation and submission of withholding statements",
       ],
       serviceAreas: [
-        "Individual & AOP tax preparation",
-        "Company tax compliance",
+        "Individual tax preparation",
+        "Business tax compliance",
+        "Tax planning strategies",
+        "IRS representation",
       ],
     },
     {
@@ -41,12 +41,16 @@ export function DetailedServices() {
       description:
         "Expert corporate services anchored in the Companies Act, 2017. We provide full-scope assistance for SECP filings and all statutory returns, ensuring your entity is always compliant and legally robust.",
       features: [
+        "Financial modeling and forecasting",
+        "Investment analysis and capital allocation",
+        "M&A advisory and due diligence",
         "Capital structure optimization",
-        "Company Incorporation & compliances",
-        "Transfer of shares",
       ],
       benefits: [
+        "Improved cash flow management",
         "Enhanced decision-making capabilities",
+        "Optimized capital structure",
+        "Strategic growth planning",
       ],
     },
   ]
