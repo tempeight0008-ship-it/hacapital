@@ -42,8 +42,8 @@ export function DetailedServices() {
         "Expert corporate services anchored in the Companies Act, 2017. We provide full-scope assistance for SECP filings and all statutory returns, ensuring your entity is always compliant and legally robust.",
       features: [
         "Company Incorporation & compliances",
-        "Alternation in memorandum",
         "Transfer of shares and further issuance of capital",
+        "Alternation in memorandum",
         "Winding up of company",
         "Special assignments assigned by regulatory body",
       ],
