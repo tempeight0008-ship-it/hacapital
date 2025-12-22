@@ -7,12 +7,12 @@ export function DetailedServices() {
   const [showSecondCard, setShowSecondCard] = useState(true)
   const services = [
     {
-      title: "Preparation of Management Accounts",
+      title: "Accounting",
       description:
         "Precise, up-to-date financial record-keeping that provides unparalleled clarity into your business performance and empowers you to make smarter decisions.",
       features: [
-        "Invoices management",
         "Management accounts",
+        "Invoices management",
         "Integration with accounting software",
       ],
       technology: [

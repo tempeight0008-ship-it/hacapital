@@ -4,7 +4,7 @@ export function About() {
       <div>
         <h2 className="text-4xl font-bold text-black mb-6">About</h2>
         <p className="text-gray-600 leading-relaxed mb-6">
-          With over 12 years of experience in corporate finance, I specialize in helping businesses optimize their
+          With over 7 years of experience in corporate finance, I specialize in helping businesses optimize their
           financial operations and achieve sustainable growth. My expertise spans across multiple industries, providing
           tailored solutions that drive results.
         </p>
