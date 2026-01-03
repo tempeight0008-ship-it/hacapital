@@ -4,7 +4,7 @@ import { Card } from "@/components/ui/card"
 import { useState } from "react"
 
 export function DetailedServices() {
-  const [showSecondCard, setShowSecondCard] = useState(true)
+  const [showSecondCard, setShowSecondCard] = useState(false)
   const services = [
     {
       title: "Accounting",
